@@ -1,0 +1,241 @@
+/*-- medium-layout-1280-px --*/
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    /* header-top-area */
+    .header-top-email {
+        margin-left: 20px;
+    }
+    .header-top-icons ul li {
+        margin: 0 4px;
+    }
+    /* team-area */
+    .single-member img {
+        height: 300px;
+    }
+}
+
+
+/*-- tablet-layout-768-px --*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* custom-css */
+    .margin-bottom-30 {
+        margin-bottom: 30px;
+    }
+    /* header-top-area */
+    .header-top-area {
+        padding: 10px 0;
+    }
+    .header-top-left,
+    .header-top-icons {
+        margin-top: 0;
+    }
+    .header-top-icons {
+        margin-top: 12px;
+    }
+    .header-top-phone,
+    .header-top-email {
+        float: none;
+    }
+    .header-top-email {
+        margin-left: 0;
+    }
+    .header-top-right {
+        float: none;
+    }
+    .header-top-icons,
+    .header-top-btn {
+        float: left;
+    }
+    .header-top-icons ul li {
+        margin: 0 3px;
+    }
+    .header-top-btn .custom-btn {
+        padding: 12px 15px;
+    }
+    /* header-menu-area */
+    .header-menu-area {
+        padding: 20px 0;
+    }
+    .header-logo-area {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    .main-menu ul {
+        float: none;
+        text-align: center;
+    }
+    .main-menu ul li a {
+        padding: 15px 14px;
+    }
+    .main-menu ul.sub-menu {
+        text-align: left;
+    }
+    /* welcome-area */
+    .slide-shade {
+        padding: 250px 0;
+    }
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+    .owl-carousel .owl-dots {
+        top: 80%;
+        left: 50%;
+        margin-left: -60px;
+    }
+    .owl-carousel .owl-dots .owl-dot {
+        float: left;
+        margin: 0 5px;
+    }
+    /* team-area */
+    .single-member img {
+        height: 220px;
+    }
+}
+
+
+/*-- mobile-layout --*/
+
+@media only screen and (max-width: 767px) {
+    .margin-bottom-30 {
+        margin-bottom: 30px;
+    }
+    /* header-top-area */
+    .header-top-area,
+    .footer-copyright-area {
+        padding: 20px 0;
+        text-align: center;
+    }
+    .header-top-left,
+    .header-top-icons {
+        margin-top: 0;
+    }
+    .header-top-email {
+        margin: 10px 0 10px 0;
+    }
+    .header-top-phone,
+    .header-top-email,
+    .header-top-right,
+    .header-top-icons {
+        float: none;
+    }
+    .header-top-icons ul li {
+        margin: 0 5px;
+    }
+    .header-top-btn {
+        display: none;
+    }
+    /* header-menu-area */
+    .main-menu .custom-navbar {
+        display: inline-block;
+        top: -48px;
+        right: 20px;
+    }
+    .main-menu ul {
+        display: none;
+        float: left;
+    }
+    .main-menu ul li {
+        position: inherit;
+        display: block;
+    }
+    .main-menu ul li:hover > a,
+    .main-menu ul.sub-menu li:hover a {
+        color: #787878;
+    }
+    .main-menu ul.sub-menu {
+        position: inherit;
+        opacity: 1;
+        visibility: visible;
+        border: none;
+        width: 100%;
+        margin-left: 20px;
+    }
+    .main-menu ul.sub-menu li a {
+        border: none;
+    }
+    .main-menu ul.sub-menu li a:before {
+        content: ' - ';
+    }
+    .main-menu .search-here {
+        top: 450px;
+        right: 30px;
+    }
+    /* welcome-area */
+    .slide-shade {
+        padding: 200px 0;
+    }
+    .owl-carousel .owl-dots,
+    .owl-carousel .owl-nav {
+        display: none;
+    }
+    /* about-area */
+    .about-content,
+    .food-menu-items,
+    .reservation-form,
+    .story-content,
+    .story-image,
+    .chef-image,
+    .chef-content,
+    .starters-items,
+    .lunch-items,
+    .dinner-items,
+    .drinks-items,
+    .gallery-items,
+    .intro-image,
+    .intro-content,
+    .book-image,
+    .posts-area,
+    .page-number,
+    .sidebar,
+    .contact-info,
+    .contact-form {
+        width: 90%;
+        margin: auto;
+    }
+    .chef-image img,
+    .book-image img {
+        margin: auto;
+    }
+    /* reservation-area */
+    .reservation-area .reservation-form-left {
+        width: 100%;
+        float: none;
+        margin-right: 0;
+    }
+    .reservation-area .reservation-form-right {
+        width: 100%;
+    }
+    /* newsletter-area */
+    .newsletter-form input[type="email"] {
+        margin: 0 10px 20px 0;
+    }
+    /* footer-area */
+    .author-info {
+        float: none;
+        margin-top: 10px;
+    }
+    /* team-area */
+    .single-member h5 {
+        font-size: 16px;
+    }
+    .single-member img {
+        height: auto;
+    }
+    /* gallery-area */
+    .single-gallery-item img {
+        height: auto;
+    }
+    /* book-area */
+    .book-content {
+        text-align: center;
+    }
+    /* page-number */
+    .page-number {
+        margin-bottom: 48px;
+        overflow: hidden;
+    }
+    .page-number ul li {
+        margin-bottom: 10px;
+    }
+}
